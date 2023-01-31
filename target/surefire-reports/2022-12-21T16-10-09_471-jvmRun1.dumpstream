@@ -1,0 +1,109 @@
+# Created on 2022-12-21T16:12:07.588
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created on 2022-12-21T16:12:19.895
+Unexpected IOException with stream: 16:12:19.894 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-2 close connection IMMEDIATE
+
+
+# Created on 2022-12-21T16:12:19.900
+Unexpected IOException with stream: 16:12:19.898 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 endpoint closed
+
+
+# Created on 2022-12-21T16:12:19.902
+Unexpected IOException with stream: 16:12:19.901 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 discarding endpoint
+
+
+# Created on 2022-12-21T16:12:19.905
+Unexpected IOException with stream: 16:12:19.904 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 releasing endpoint
+
+
+# Created on 2022-12-21T16:12:19.907
+Unexpected IOException with stream: 16:12:19.906 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection is not kept alive
+
+
+# Created on 2022-12-21T16:12:19.910
+Unexpected IOException with stream: 16:12:19.909 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+
+
+# Created on 2022-12-21T16:12:19.916
+Unexpected IOException with stream: 16:12:19.914 [main] WARN io.github.bonigarcia.wdm.WebDriverManager - There was an error managing geckodriver (latest version) (Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information) ... trying again using latest driver stored in cache
+
+
+# Created on 2022-12-21T16:12:19.928
+Unexpected IOException with stream: 16:12:19.927 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - The driver version for FIREFOX is unknown ... trying with latest
+
+
+# Created on 2022-12-21T16:12:19.956
+Unexpected IOException with stream: 16:12:19.956 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+
+
+# Created on 2022-12-21T16:12:19.967
+Unexpected IOException with stream: 16:12:19.966 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 preparing request execution
+
+
+# Created on 2022-12-21T16:12:19.968
+Unexpected IOException with stream: 16:12:19.967 [main] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000004 Cookie spec selected: strict
+
+
+# Created on 2022-12-21T16:12:19.969
+Unexpected IOException with stream: 16:12:19.968 [main] DEBUG org.apache.hc.client5.http.protocol.RequestAuthCache - ex-0000000004 Auth cache not set in the context
+
+
+# Created on 2022-12-21T16:12:19.970
+Unexpected IOException with stream: 16:12:19.970 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000004 target auth state: UNCHALLENGED
+
+
+# Created on 2022-12-21T16:12:19.970
+Unexpected IOException with stream: 16:12:19.970 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000004 proxy auth state: UNCHALLENGED
+
+
+# Created on 2022-12-21T16:12:19.972
+Unexpected IOException with stream: 16:12:19.971 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000004 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+
+
+# Created on 2022-12-21T16:12:19.973
+Unexpected IOException with stream: 16:12:19.973 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 acquiring endpoint (3 MINUTES)
+
+
+# Created on 2022-12-21T16:12:19.974
+Unexpected IOException with stream: 16:12:19.973 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+
+
+# Created on 2022-12-21T16:12:19.975
+Unexpected IOException with stream: 16:12:19.975 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+
+
+# Created on 2022-12-21T16:12:19.976
+Unexpected IOException with stream: 16:12:19.976 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 acquired ep-0000000003
+
+
+# Created on 2022-12-21T16:12:19.977
+Unexpected IOException with stream: 16:12:19.977 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 acquired endpoint ep-0000000003
+
+
+# Created on 2022-12-21T16:12:19.978
+Unexpected IOException with stream: 16:12:19.978 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000004 opening connection {s}->https://raw.githubusercontent.com:443
+
+
+# Created on 2022-12-21T16:12:19.979
+Unexpected IOException with stream: 16:12:19.978 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000003 connecting endpoint (30 SECONDS)
+
+
+# Created on 2022-12-21T16:12:19.980
+Unexpected IOException with stream: 16:12:19.980 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+
+
+# Created on 2022-12-21T16:12:19.982
+Unexpected IOException with stream: 16:12:19.982 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - http-outgoing-3 connecting to raw.githubusercontent.com/49.44.79.236:443
+
+
+# Created on 2022-12-21T16:12:19.984
+Unexpected IOException with stream: 16:12:19.983 [main] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/49.44.79.236:443 with timeout 30 SECONDS
+
+

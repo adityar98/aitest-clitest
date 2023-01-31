@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="75.160755">
+    <testcase classname="OracleNS flow funtionalities including smoke testcases" name="Create flow without flowname" time="28.076902">
+        <system-out>
+            <![CDATA[Given I on Docuphase Login Page.............................................passed
+Given I m on Docuphase login page...........................................passed
+When I enter adminid as "supriya@appliedaiconsulting.com"...................passed
+And I enters pswd as "Aaic@12345"...........................................passed
+Then I click on login button................................................passed
+Then I clcik on Create flow button..........................................passed
+And Clicked on OracleNS button..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OracleNS flow funtionalities including smoke testcases" name="To create flow without action" time="47.083853">
+        <system-out>
+            <![CDATA[Given I on Docuphase Login Page.............................................passed
+Given I m on Docuphase login page...........................................passed
+When I enter adminid as "supriya@appliedaiconsulting.com"...................passed
+And I enters pswd as "Aaic@12345"...........................................passed
+Then I click on login button................................................passed
+Then I clcik on Create flow button..........................................passed
+Then I entered flow name "flowtest1"........................................passed
+When Clicked on OracleNS button for next page...............................passed
+Then I click on Next button without Adaptor action..........................passed
+Then I goto homepage and search for the flowname "flowtest1"................passed
+Then I click on delete icon and deleted flow................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
